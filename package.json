@@ -1,7 +1,14 @@
 {
   "name": "instachat-whatsapp",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A simple web tool to initiate WhatsApp chats without saving contacts.",
   "private": true,
+  "author": "Kevin Riveros",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevin-riveros/instachat-whatsapp.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,15 +16,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.297.0",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "tailwind-merge": "^2.1.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.45",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
