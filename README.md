@@ -2,6 +2,11 @@
 
 A simple web tool to initiate WhatsApp chats without saving contacts.
 
+
+![Screenshot 2023-12-16 at 03 32 56](https://github.com/kevin-riveros/instachat-whatsapp/assets/31625572/1fd48b3e-0984-4291-b6af-3c7ff7e22151)
+
+
+
 ## Getting Started
 
 First, run the development server:
